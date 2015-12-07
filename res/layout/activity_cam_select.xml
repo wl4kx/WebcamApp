@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/cam1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCamNumberClicked"
+        android:text="@string/camera" />
+
+    <Button
+        android:id="@+id/cam2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCamNumberClicked"
+        android:layout_below="@id/cam1"
+        android:text="@string/camera" />
+
+    <Button
+        android:id="@+id/cam3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cam2"
+        android:onClick="onCamNumberClicked"
+        android:text="@string/camera" />
+
+</RelativeLayout>
